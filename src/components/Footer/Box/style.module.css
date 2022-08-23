@@ -1,0 +1,9 @@
+.boxBackground{
+    position: absolute;
+    width: 1189px;
+    height: 312px;
+    left: 0;
+    /* top: 5867.04px; */
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+}
