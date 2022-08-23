@@ -101,6 +101,41 @@ body{
     font-weight: bold;
 }
 
+.mobile-search > input[type=text] {
+    position: relative;
+    padding: 15px 40px 15px 20px;
+    width: 20px;
+    color: #181818;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 100;
+    border: none;
+    border-radius: 5px;
+    background: linear-gradient(to right, #fff 0%, #464747 #f9f9f9 100%);
+    transition: width 0.4s ease;
+    outline: none;
+    font-weight: bold;
+    background: none;
+    margin-left: -12px;
+    z-index: 2;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+.mobile-search > input[type=text]::placeholder {
+  color: #181818
+}
+
+.mobile-search > input[type=text]:focus {
+    width: 300px;
+    background: #fff;
+}
+
+.mobile-search > .gg{
+    position: absolute;
+    top: 30%;
+}
+
 @media (max-width: 768px) {
     .main-title{
         font-size: 30px;

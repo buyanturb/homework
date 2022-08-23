@@ -77,7 +77,10 @@ const Navbar = () =>
                     </ul>
                     <div className="flex md:hidden">
                         <img className="cursor-pointer mr-5" src={hamburger} alt="hamburger" onClick={ToggleSidebar} />
-                        <img className="cursor-pointer" src={search} alt="search" />
+                        <div className="container relative mobile-search">
+                            <input placeholder='Search...' className='js-search' type="text" />
+                            <img className="cursor-pointer gg" src={search} alt="search" />
+                        </div>
                     </div>
                 </div>
                 <div className="w-1/3 flex justify-center">
