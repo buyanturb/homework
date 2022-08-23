@@ -22,7 +22,7 @@ const Sale = () =>
       <p className={`${css.upto} mr-4`}>Upto</p>
       <p className={css.num}>60%<span className={css.ff}>ff</span></p>
     </div>
-    <button className="cursor-pointer rounded-lg text-lg	md:px-10 md:py-3 px-8 py-2 md:bg-white md:text-black bg-zinc-900 text-white m-auto block cursor-pointer mt-6 uppercase font-medium">shop now</button>
+    <button className="cursor-pointer rounded-lg text-lg	md:px-10 md:py-3 px-8 py-2 md:bg-white md:text-black bg-zinc-900 text-white m-auto block mt-6 uppercase font-medium">shop now</button>
   </div>
 	)
 }
