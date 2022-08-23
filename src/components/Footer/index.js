@@ -4,8 +4,9 @@ import Box from './Box';
 const Footer = () =>
 {
     return (
-		<div class="h-[438px] relative" style={{ backgroundColor: '#F5F7F6', position: 'relative' }}>
+		<div className="h-[438px] flex items-center" style={{ backgroundColor: '#F5F7F6', position: 'relative' }}>
       <Box />
+      <span>All content Copyright © 2020 GOBI Cashmere</span>
     </div>
 	)
 }

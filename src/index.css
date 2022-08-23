@@ -4,5 +4,15 @@
 
 
 body{
-    background-color: #333;
+    background-color: #fff;
+}
+
+.main-title{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 132%;
+    text-transform: uppercase;
+    color: #000000;
 }

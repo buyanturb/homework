@@ -15,11 +15,11 @@ const Navbar = () =>
             <div className="h-[88px] px-2 sm:px-11 flex justify-between items-center">
                 <div>
                     <ul className="hidden md:flex">
-                        <li>Women</li>
-                        <li>Men</li>
-                        <li>Home</li>
-                        <li>Accessories</li>
-                        <li>Organic</li>
+                        <li><a clasName="flex h-full items-center px-4 duration-300 ease-out">Women</a></li>
+                        <li><a>Men</a></li>
+                        <li><a>Home</a></li>
+                        <li><a>Accessories</a></li>
+                        <li><a>Organic</a></li>
                     </ul>
                 </div>
                 <div>
