@@ -41,7 +41,7 @@ const Navbar = () =>
 		<div className="z-10 text-white">
             <div className={`sidebar ${isOpen == true ? 'active' : ''}`}>
                 <div className="sd-header">
-                    {/* <div className="" onClick={ToggleSidebar}>x</div> */}
+                    <div className="text-black" onClick={ToggleSidebar}><i className="fal fa-times"></i></div>
                 </div>
                 <div className="sd-body">
                     <ul>
