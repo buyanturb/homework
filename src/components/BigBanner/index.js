@@ -4,7 +4,7 @@ const BigBanner = () =>
 {
     return (
 		<div className="">
-            adfadsc
+            adfadscadsf adsf
         </div>
 	)
 }
