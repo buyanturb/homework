@@ -99,3 +99,9 @@ body{
     font-size: 13px;
     font-family: 'Roboto', sans-serif;
 }
+
+@media (max-width: 768px) {
+    .main-title{
+        font-size: 30px;
+    }
+}
