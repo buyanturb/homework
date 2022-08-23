@@ -9,7 +9,7 @@ function App() {
       <Navbar />
       <BigBanner />
       <Winter />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }
