@@ -1,0 +1,68 @@
+.saleWrapper{
+    background-color: auto;
+    height: 100px;
+    width: auto;
+    position: absolute;
+    right: 20%;
+    top: 284px
+}
+
+.title{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 108px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.saleWord{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    top: -10px;
+    background-color: red;
+}
+
+.sale{
+    font-family: 'Mr Dafoe';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 82px;
+    line-height: 84.4%;
+    text-align: center;
+    color: #E85757;
+    transform: rotate(-8.99deg);
+    -ms-transform: rotate(-8.99deg);
+    display: block;
+    margin-top: -30px;
+}
+
+@media (max-width: 768px) {
+    .saleWrapper{
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(238, 243, 255, 0.8) 100%);
+        backdrop-filter: blur(50px);
+        border-radius: 9px;
+        left: 11.99px;
+        right: 11.99px;
+        width: auto;
+        height: auto;
+        padding: 40px
+    }
+
+    .title{
+        font-size: 60px;
+        line-height: 72px;
+        color: #181818;
+    }
+
+    .sale{
+        font-weight: 400;
+        font-size: 62px;
+        line-height: 84.4%;
+        margin-top: -15px;
+    }
+}

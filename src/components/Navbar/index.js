@@ -1,12 +1,12 @@
 import React from 'react';
 import TopHeader from './TopHeader';
 
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo.svg'
 
 const Navbar = () =>
 {
     return (
-		<div>
+		<div className="z-10 text-white">
             <TopHeader />
             <div className="h-[88px] px-11">
                 <ul className="hidden md:flex">
@@ -17,7 +17,7 @@ const Navbar = () =>
                     <li>Organic</li>
                 </ul>
             </div>
-            {/* <img src={logo} alt="Logo" /> */}
+            <img src={logo} alt="Logo" />
         </div>
 	)
 }
