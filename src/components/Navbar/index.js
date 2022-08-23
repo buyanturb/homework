@@ -39,9 +39,6 @@ const Navbar = () =>
 
     return (
 		<div className="z-10 text-white">
-
-
-
             <div className={`sidebar ${isOpen == true ? 'active' : ''}`}>
                 <div className="sd-header">
                     <h4 className="mb-0">Sidebar Header</h4>
@@ -64,7 +61,6 @@ const Navbar = () =>
                 </div>
             </div>
             <div className={`sidebar-overlay ${isOpen == true ? 'active' : ''}`} onClick={ToggleSidebar}></div>
-            
             <TopHeader />
             <div className="h-[53px] md:h-[88px] px-2 sm:px-11 flex items-center">
                 <div className="w-1/3">
