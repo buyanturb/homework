@@ -16,3 +16,23 @@ body{
     text-transform: uppercase;
     color: #000000;
 }
+
+.menus li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    color: #fff
+}
+
+.menus li a:after {
+    display :block;
+    content: '';
+    border-bottom: solid 2px #F68A90;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    width: 14.5px;
+    margin: 0 auto;
+    padding-top: 6px
+}
+.menus li a:hover:after { transform: scaleX(1); }
+.menus li a.fromRight:after{ transform-origin:100% 50%; }
+.menus li a.fromLeft:after{  transform-origin:  0% 50%; }
