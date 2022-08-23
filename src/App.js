@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <BigBanner />
       <Winter />
-      <div className="px-2 flex">
+      <div className="px-2 flex mt-6 mb-3">
         <LinkedCard />
         <LinkedCard />
         <LinkedCard />
