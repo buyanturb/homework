@@ -9,4 +9,12 @@
     top: -131px;
     right: 0;
     z-index: -1 !important;
+    transition: 0.3s;
+}
+
+
+@media (max-width: 768px) {
+    .banner{
+        background-position: center left -240px;
+    }
 }
