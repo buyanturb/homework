@@ -79,7 +79,7 @@ const Navbar = () =>
                         <img className="cursor-pointer mr-5" src={hamburger} alt="hamburger" onClick={ToggleSidebar} />
                         <div className="container relative mobile-search">
                             <input placeholder='Search...' className='js-search' type="text" />
-                            <img className="cursor-pointer gg" src={search} alt="search" />
+                            <img className="cursor-pointer gg kk" src={search} alt="search" />
                         </div>
                     </div>
                 </div>
